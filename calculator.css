@@ -1,0 +1,40 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+}
+body{
+    background: black;
+}
+input{
+    /* display: block; */
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 30px;
+    /* background: black; */
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+
+}
+
+.button{
+    margin: 5px;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    background: #404040;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;2
+}
+
+.button:hover{
+    background: rgb(178, 149, 149);
+}
